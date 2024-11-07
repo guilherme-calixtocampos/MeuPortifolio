@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --cor-de-fundo: #326589;
+    --fonte-family: 'Oswald', sans-serif;
+    --cor-fonte: #dcdde1;
+    --cor-de-fundo-form: #dcdde1;
+    --cor-whats: #4cd137;
+    
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(97.54deg, #004274 15%, #326589 300%);
+    font-family: var(--fonte-family);
+    color: var(--cor-fonte);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid var(--cor-fonte); 
+    margin: 1% 9%;
+    border-radius: 24px;
+}
+
+.about_me__texto {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.about_me {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: var(--cor-de-fundo) solid 2px;
+    border-radius: 24px;
+    background-color: var(--cor-de-fundo);
+    margin: 2% 9%;
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+}
+
+.title__skills {
+    text-align: center;
+    font-size: 40px;
+    margin: 0%;
+    background-color: var(--cor-de-fundo);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2% 6% 0% 6%;
+    gap: 30px;
+}
+
+.paragrafo__skills {
+    border: var(--cor-de-fundo) solid 2px;
+    border-radius: 24px;
+    background-color: var(--cor-de-fundo);
+    padding: 2%;
+    margin: 2%
+}
+
+.title__projects {
+    text-align: center;
+    font-size: 40px;
+    margin: 0%;
+    
+}
+
+.projects {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 2% 6% 2% 6%;
+    border: var(--cor-de-fundo) solid 2px;
+    border-radius: 24px;
+    background-color: var(--cor-de-fundo);
+    margin: 3%;
+}
+
+.image__project {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.swiper {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide img {
+    width: 50%;
+}
+
+.image__projects {
+    width: 50%;
+    height: 50%;
+}
+
+.title__rodape {
+    text-align: center;
+    font-size: 30px;
+    padding: 0.5% 2% 2% 2%;
+}
+
+.image__rodape {
+    width: 90%;
+}
+
+.paragrafo__info { 
+    text-align: center;
+    font-size: 32px;
+    margin: 0%;
+    padding: 2% 4% 1% 4%;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 30% 3% 30%;
+    gap: 15px;
+}
+
+.myForm__name , .myForm__email , .myForm__phone , .myForm__send{
+    text-align: center;
+    background-color: var(--cor-de-fundo-form);
+    font-style: italic;
+    font-size: 20px;
+    padding: 1%;
+    border-radius: 10px;
+    font-family: var(--fonte-family);
+    
+}
+
+.myForm__send:hover {
+    background-color: var(--cor-whats);
+}
+
+.rodape {
+    border-top: 2px solid var(--cor-fonte);
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 16%;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.links {
+    display: flex;
+    text-decoration: none;
+    color: var(--cor-fonte);
+    justify-content: center;
+    
+}
+
+.rodape__links {
+    list-style: none;
+    
+}
+
+.image__rodape_email {
+    width: 50px;
+    height: 50px;
+}
+
+.image__rodape_github {
+    width: 50px;
+    height: 50px;
+}
+
